@@ -28,7 +28,7 @@ import jakarta.persistence.Table;
 
 
 
-        public int getCustomer_id() {
+        public int getCustomer_id(int number) {
             return customer_id;
         }
 
